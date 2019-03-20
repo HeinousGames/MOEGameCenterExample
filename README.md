@@ -6,6 +6,7 @@ Refactored the old RoboVM bindings for GameCenter from here (https://github.com/
 
 # Things to Note
 - Uses LibGDX 1.9.9 and Intel MOE 1.4.3
+- You will want to assign a team in Xcode and test on an actual device. I did not test in a simulator, but it may still work.
 - Removed deprecated GameCenter implementation code as LibGDX MOE games run on iOS 9.3+.
 - Utilizes lambdas, so you may have to update to newer versions of Java if your IDE doesn't recognize them.
 - Not sure if the method buildUnauthenticatedPlayerError is updated correctly, as my account logged in correctly. Marked as     untested.
